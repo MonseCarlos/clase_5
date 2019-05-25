@@ -1,0 +1,9 @@
+INICIO
+
+    Leer hambre
+
+    SI hambre
+        ESCRIBE "Joel esta feliz"
+    SI NO
+        ESCRIBE "Joel esta triste"
+FIN
