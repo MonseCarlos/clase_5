@@ -1,0 +1,32 @@
+INICIO
+
+    LEER dia_semana
+
+    SI dia_semana es igual a  "LUNES" ENTONCES 
+        ESCRIBRE "Tienes clase de historia"
+    FIN-SI
+    
+    SI dia_semana es igual "MIERCOLES" ENTONCES
+        ESCRIBRE "Tienes clase de historia"
+    FIN-SI
+
+    SI dia_semana es igual "JUEVES" ENTONCES
+        ESCRIBRE "Tienes clase de esgrima"
+    FIN-SI
+
+    SI dia_semana es igual "MARTES" ENTONCES
+        ESCRIBRE "Dia de descanso"
+    FIN-SI
+
+    SI dia_semana es igual "VIERNES" ENTONCES
+        ESCRIBRE "Dia de descanso"
+    FIN-SI
+
+    SI dia_semana es igual "SABADO" ENTONCES
+        ESCRIBRE "Dia de descanso"
+    FIN-SI
+
+    SI dia_semana es igual "DOMINGO" ENTONCES
+        ESCRIBRE "Dia de descanso"
+    FIN-SI
+FIN

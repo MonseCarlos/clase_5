@@ -1,0 +1,18 @@
+INICIO
+
+    Leer shot1
+    Leer shot2
+    Leer shot3
+
+    SI shot1 es igual a shot2 ENTONCES  
+        ESCRIBE "Ganaste"
+    SINO SI shot1 es igual a shot3 ENTONCES
+        ESCRIBE "Ganaste"
+        SINO SI shot2 = shot3 ENTONCES
+            ESCRIBE "Ganaste"
+        SINO 
+            ESCRIBE "Perdiste"
+        FIN-SI
+    FIN-SI
+
+FIN

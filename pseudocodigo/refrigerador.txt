@@ -1,0 +1,14 @@
+INICIO
+
+    LEER nombre
+    LEER contrasena
+
+    nombre_refrigerador
+    contrasena_refrigerador
+
+    SI nombre es igual nombre_refrigerador ENTONCES
+        SI contrasena es igual contrasena_refrigerador ENTONCES
+            ESCRIBE "Tienes acceso"
+        FIN-SI
+    FIN-SI 
+FIN

@@ -1,0 +1,16 @@
+INICIO
+    LEER pesosxdia
+
+    pesosAhorrar = 10000
+	cantidaDias = 30
+	cantidaAhorrar = 30 * pesosPorDia
+	alcanzanLosAhorros = cantidadAhorrar >= pesosAhorrar
+    
+	SI alcanzanLosAhorros ENTONCES
+		ESCRIBE “Ya la armaste”
+	SINO
+		ESCRIBE “Sigue participando”
+	FIN-SI
+FIN
+
+FIN

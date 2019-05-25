@@ -2,8 +2,9 @@ INICIO
 
     Leer hambre
 
-    SI hambre
+    SI hambre ENTONCES
+        ESCRIBE "Joel esta triste""
+    SINO ENTONCES
         ESCRIBE "Joel esta feliz"
-    SI NO
-        ESCRIBE "Joel esta triste"
+    FIN-SI
 FIN

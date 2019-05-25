@@ -1,0 +1,13 @@
+INICIO
+
+    LEER nivel
+
+    SI nivel < 10
+        ESCRIBE Aprendiz
+    SINO SI nivel > 10 && nivel < 20
+        ESCRIBE Acrobata
+    SINO SI nivel >20
+        ESCRIBE ninja
+    FIN-SI
+
+FIN
